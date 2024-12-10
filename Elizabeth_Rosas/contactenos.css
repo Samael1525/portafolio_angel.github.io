@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #93d4d4;
+}
+
+header{
+    background-color: #e456a9c6;
+    padding: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav div{
+    display: inline-block;
+    height: 25px;
+    position: relative;
+    top: 25px
+
+}
+
+li{
+    display: inline-block;
+    margin:  0 15px;
+}
+
+li a{
+    color: #420505;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background-color 0.4s;
+}
+
+li a:hover{
+    background-color: #3ec8ff;
+}
+
+.formulario{
+    margin: 0 auto;
+    width: 600px;
+}
+
+#i4{
+    margin: 15px;
+    height: 20px;
+    width: 150px;
+    background-color: darkorange;
+ }
+
+ footer{
+    background-color: #6bbc51;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    margin: 10px ;
+}

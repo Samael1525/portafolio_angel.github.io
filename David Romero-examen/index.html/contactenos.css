@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+header {
+    background-image: url(https://img.freepik.com/premium-photo/some-machinery-with-gears-stacked-together-industrial-machinery-concept_1127-24105.jpg?w=2000);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header img {
+    width: 80px;
+    height: auto;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 100px;
+    
+}
+.container h2{
+    color: blue;
+}
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 15px;
+    margin:25px;
+    color: blue;
+}
+.catalogo p{
+    color: rgb(19, 19, 24);
+}
+.producto {
+    border: 2px solid #272222c0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(6, 76, 206, 0.856);
+}
+.producto img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+.producto:hover img {
+    transform: scale(1.1);
+}
+footer {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+form button {
+    background-color: rgb(43, 43, 240);
+    color: white;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgba(85, 85, 247, 0.61);
+}
+.fondo{
+    background-color: azure;
+    
+}
